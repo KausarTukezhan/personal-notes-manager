@@ -1,4 +1,5 @@
 const express = require('express');
+<<<<<<< HEAD
 const fs = require('fs');
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
@@ -107,3 +108,15 @@ app.delete('/api/notes/:id', (req, res) => {
 app.use('/api', (req, res) => res.status(404).json({ error: "API route not found" }));
 app.use((req, res) => res.status(404).sendFile(path.join(__dirname, 'views', '404.html')));
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+=======
+const app = express();
+const PORT = 3000;
+
+app.use(express.static('public'));
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+});
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761

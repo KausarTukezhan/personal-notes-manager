@@ -34,6 +34,7 @@ header p {
     color: #cccccc;
 }
 
+<<<<<<< HEAD
 /* ===== Navigation ===== */
 nav {
     margin-top: 25px;
@@ -56,6 +57,8 @@ nav a:hover {
     background-color: #1a1a1a;
 }
 
+=======
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 /* ===== Sections ===== */
 section {
     max-width: 700px;
@@ -69,12 +72,15 @@ section h2 {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 section p {
     color: #cccccc;
     margin-bottom: 15px;
     font-size: 1rem;
 }
 
+=======
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 /* ===== Lists ===== */
 ul {
     list-style: none;
@@ -93,6 +99,7 @@ ul li {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
+<<<<<<< HEAD
 /* ===== Forms ===== */
 .contact-form {
     max-width: 500px;
@@ -162,6 +169,8 @@ ul li {
     text-decoration: underline;
 }
 
+=======
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 /* ===== Footer ===== */
 footer {
     background-color: #111;
@@ -181,6 +190,7 @@ footer {
     section {
         margin: 40px auto;
     }
+<<<<<<< HEAD
 
     nav {
         flex-direction: column;
@@ -190,4 +200,6 @@ footer {
     .contact-form {
         padding: 0 10px;
     }
+=======
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 }

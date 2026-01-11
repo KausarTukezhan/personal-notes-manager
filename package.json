@@ -12,7 +12,11 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^5.2.1",
     "sqlite3": "^5.1.7"
+=======
+    "express": "^5.2.1"
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
   }
 }

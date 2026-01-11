@@ -2,7 +2,11 @@
 
 ## Description
 Personal Notes Manager is a web application that allows users to create, view, edit, and delete personal notes efficiently.  
+<<<<<<< HEAD
 The application is built using Node.js and Express.js, focusing on backend development concepts.
+=======
+The application is built using Node.js and Express.js, focusing on backend development concepts
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 
 ## Team Members
 - Kausar Tukezhan
@@ -10,6 +14,7 @@ The application is built using Node.js and Express.js, focusing on backend devel
 - Ginayat Yerassyl
 
 ## Installation
+<<<<<<< HEAD
 1. Clone or download this repository
 2. Install dependencies:
    ```bash
@@ -143,10 +148,17 @@ personal-notes-manager/
 * CSS3
 
 ## Implemented Features
+=======
+1. npm install
+2. node server.js
+
+## Planned Features
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
 - Create notes
 - View all notes
 - Edit notes
 - Delete notes
+<<<<<<< HEAD
 - Store notes in a database (SQLite)
 
 ## Planned Features
@@ -160,3 +172,14 @@ personal-notes-manager/
 * Week 3: Database integration (SQLite) ✅
 * Week 4: CRUD operations for Notes API ✅
 * Week 5: Final validation & improvements 
+=======
+- Categorize notes
+- Store notes in a database
+
+## Roadmap
+- Week 1: Express setup & landing page
+- Week 2: Forms and POST routes
+- Week 3: Database integration
+- Week 4: CRUD operations
+- Week 5: Final improvements
+>>>>>>> dd9f57447c1be998b740ecb8793c95ec39f99761
